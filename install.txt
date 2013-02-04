@@ -1,0 +1,35 @@
+1) Unpack "Profile_v1.1.0.rar" in the site root or copy the files from the archive in their coresponding folders in the site root.
+	For Example:
+	All .php files (located in: root\cmp) have to be placed in cmp folder (located in: root\cmp) of the site root.
+	
+2) Create a component (Go to Control Panel(cp) -> System -> Components -> Add) and set the following values: 
+		
+	2.1) system name 						-> profile
+	2.2) public name 						-> Profile
+	2.3) PHP Class Name 					-> cmp/Profile
+	2.4) Participate in Admin Menu Group 	-> unchecked
+
+	and click Update.
+	
+3) Create a page (Go to Control Panel(cp) -> System -> Pages -> Add) and set the following values:
+
+	3.1) system name 	-> profile
+	3.2) public name 	-> Profile
+	3.3) component name -> Profile
+
+4) Register Profile page in Login component (Go to Control Panel(cp) -> System -> Components):
+
+	4.1) Find component "login" and click on "Module Settings"
+	4.2) Choose Profile Page -> Profile
+	
+5) Include lingual variables:
+
+	5.1) Go to Control Panel(cp) -> System -> Languages -> "Import from a File" (default English version is provided)
+	5.2) choose en.ini file
+	5.3) click "Import from file"
+
+When you log in the Frontend, your name will be linked to the profile page.
+
+That is all :)
+
+Thank you for your interest and enjoy SBND F&CMS - Framework & CMS for PHP developers.
