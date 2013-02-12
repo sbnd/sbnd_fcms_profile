@@ -1,8 +1,5 @@
-sbnd_fcms_profile
+Profile Component
 =================
-
-Profile component
-
 Frontend component, allowing a logged user to edit its profile 
 
 The component has a frontend only that work for all already registered users
