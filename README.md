@@ -1,9 +1,8 @@
 sbnd_fcms_profile
 =================
 
-Profile package
+Profile - frontend component, allowing a logged user to edit its profile
 
-Frontend Profile page
+The component has a frontend only that work for all already registered users.
 
-backend component(s) : YES (users module)
-frontend component(s): YES 
+For more information: http://fcms.sbnd.net/
