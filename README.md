@@ -5,8 +5,8 @@
 
 
 =================
-Frontend component, allowing a logged user to edit its profile 
+A frontend component that allows the logged in users to edit their profiles. 
 
-**The component has a frontend only** that work for all already registered users
+The component only has a frontend part that works for all already registered users.
 
-For more information: **http://fcms.sbnd.net/**
+For more information, see: **http://fcms.sbnd.net/**
